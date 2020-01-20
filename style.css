@@ -3,8 +3,6 @@ body {
 }
 
 .row {
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
     border-top-width: 1px;
     border-top-style: solid;
     border-top-color: black;
@@ -23,6 +21,19 @@ body {
 }
 
 .col-lg-10 {
-    padding-left: 1%;
     padding-right: 1%;
+    padding-left: 0%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+}
+
+.saveCol {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+.form-group {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
 }
