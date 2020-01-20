@@ -2,7 +2,7 @@ var date = moment().format('MMMM Do YYYY');
 var hour = moment().format('h');
 
 if(moment().format('a') === "pm" && hour < 12) {
-    hour += 12;
+    hour = parseInt(hour) + 12;
 }
 
 $(".lead").html("Organize your day with this work day planner." + "<br/>" + "<strong>" + date + "</strong>");
